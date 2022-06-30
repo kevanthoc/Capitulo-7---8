@@ -486,15 +486,228 @@ I= V/RT      I= 22V/18.3k OHM =  1.20 m A
 I= V/RT      I= 22V/33 k ohm= 0.6 m A La corriente extraida 
 
 
+32. El divisor de voltaje de la figura 7-75 tiene una carga controlada por interruptor. Determine el voltaje en cada toma (V1, V2 y V3) para cada posición del interruptor
+
+
+![image](https://user-images.githubusercontent.com/105686218/176701616-b8a653a2-62a6-49d0-a9cd-ecb4f571dfb7.png)
+
+a) 
+R=R2+R3+R4=10KΩ+10KΩ+10KΩ=30KΩ
+
+R‖RL=(R*RL)/(R+RL) =(30KΩ*68KΩ)/(30KΩ+68KΩ) =20,82KΩ
+
+V1=[(R‖RL)/ (R1+ R‖RL)] Vs= (20,82KΩ/30.82 KΩ)120V=81,06V
+
+b) 
+
+R=R1+R2=10KΩ+10KΩ=20KΩ
+
+Rs=R3+R4=10KΩ+10KΩ=20KΩ
+
+Rs‖RL=(R*RL)/(R+RL) =(20KΩ*68KΩ)/(20KΩ+68KΩ) =15,45KΩ
+
+V1=[(Rs‖RL)/ (R+ Rs)] Vs= (15,45KΩ /20KΩ+15,45KΩ)120V= 52,30 V
+
+c)
+
+ R=R1+R2+R3=10KΩ+10KΩ+10KΩ=30KΩ
+ 
+R4‖RL=(R4*RL)/(R4+RL) =(10KΩ*68KΩ)/(10KΩ+68KΩ) =8,72 KΩ
+
+V1=[(R4‖RL)/ (R+ R4‖RL)] Vs= (8,72 KΩ /38,72 KΩ)120V=27,02V
+
+*34. Diseñe un divisor de voltaje que produzca una salida de 6 V sin carga y un mínimo de 5.5 V entre los extremos de una carga de 1.0 kΩ. El voltaje de fuente es de 24 V y la corriente extraída sin carga no debe exceder de 100 mA
+
+
+![image](https://user-images.githubusercontent.com/105686218/176701772-2648e374-918b-4590-a2b7-6ce003279895.png)
+
+Vx=(Rx/RT) Vs
+
+RT=(Rx/Vx) Vs=(1kΩ/6V)24V=4kΩ
+
+R1=4kΩ-1kΩ=3kΩ
+
+
+Efecto de carga de un voltímetro
+
+36. Determine la resistencia interna de un voltímetro de 20,000 Ω/V en cada uno de los siguientes ajustes de intervalo. 
+
+(a) 0.5 V 
+
+R=V/I=V
+
+V=I
+
+(b) 1 V 
+
+(c) 5 V 
+
+(d) 50 V
+
+(e) 100 V 
+
+(f) 1000 V
+
+38. Repita el problema 37 si se utiliza el voltímetro para medir voltaje entre los extremos de R4 en el circuito de la figura 7-62(b).
+
+
+Redes en escalera
+
+40. Determine la resistencia total y el voltaje en los nodos A, B y C de la red en escalera mostrada en la figura 7-78.
+
+![image](https://user-images.githubusercontent.com/105686218/176701895-75109bd4-c4bb-4227-adb5-0e7976048cb4.png)
+
+Rb=R4(R5+R6) /(R4+(R5+R6)) =(2,2kΩ*2KΩ) /4,2kΩ=1.05kΩ
+
+Ra= R2(R3+Rb) /(R2+(R3+Rb)) =(2,2kΩ*2,05kΩ) /4,25kΩ=1.06kΩ
+
+RT=R1+Ra=5,6kΩ+1.06kΩ=6.66 kΩ
+
+IT=Vs/RT=18V/6,66 kΩ=2,7mA
+
+I2=Rb/(R2+Rb) IT=1.05kΩ/(2.2kΩ+1.05kΩ) *2,7mA =0,87 mA
+
+I3=2,7mA - 0,87 mA =1,83 mA
+
+I4=Ra/(R4+Ra) I3=1.06kΩ/(2.2kΩ+1.06kΩ) *2,7mA =0,88 Ma
+
+I5=I6=1.83Ma-0,88ma=0,95Ma
+
+Nodo A
+
+VA=I2*R2=0,87 Ma*2,2kΩ=1,914V
+
+Nodo B
+
+VB= I4*R4=0,88 Ma*2,2kΩ=1,94V
+
+Nodo C
+
+VC= I6*R6=0,95Ma*1KΩ=0,95V
+
+42. En la figura 7-79, ¿cuál es el voltaje entre los extremos de cada resistor con 10 V entre A y B?
+
+
+![image](https://user-images.githubusercontent.com/105686218/176702009-651f100a-7cef-46a4-863a-e8a3a248cf38.png)
+
+
+Rb=R4(R5+R6+R7) /(R4+(R5+R6+R7)) =(820Ω*880Ω) /1700Ω=424,47Ω
+
+Ra= R2(R3+Rb+R8) /(R2+(R3+Rb+R8)) = (820Ω *864.47Ω) /1684.47Ω=420.82Ω
+
+RT=R1+Ra+R9=620.82 Ω
+
+Vx=(Rx/RT) Vs= (100/620.82 Ω)10V=1.61 V
+
+Vx=(Rx/RT) Vs= (220/620.82 Ω)10V=3.55 V
+
+Vx=(Rx/RT) Vs= (680/620.82 Ω)10V=10.95 V
+
+Vx=(Rx/RT) Vs= (820/620.82 Ω)10V=13.21 V
+
+44. Determine VSALIDA para la red R/2R en escalera mostrada en la figura 7-81 para las siguientes condiciones: 
+
+
+(a) Interruptor SW2 conectado a +12 V y los demás conectados a tierra 
+
+(b) Interruptor SW1 conectado a +12 V y los demás conectados a tierra
+
+![image](https://user-images.githubusercontent.com/105686218/176702135-40ebb088-91ff-48ee-93ca-0927bec413f8.png)
+
+a)
+
+R1‖R2=(R1*R2) /(R1+R2) =(24kΩ*24kΩ) /(24kΩ+24kΩ) =12kΩ
+Ra=12kΩ+12kΩ=24kΩ
+
+R5‖R6=(R5*R6) /(R5+R6) =(24kΩ*12kΩ) /(24kΩ+12kΩ) =8kΩ
+
+Rb=8kΩ +12kΩ = 20kΩ
+
+Salida=(R8/Rb+R8) Vs= (24/44)10=5.25 V
+
+b)
+
+R3‖R4=(R3*R4) /(R3+R4) =(24kΩ*12kΩ) /(24kΩ+12kΩ) =8kΩ
+
+Rb=8kΩ +12kΩ = 20kΩ
+
+Rb‖R6=(Rb*R6) /(Rb+R6) =(24kΩ*20kΩ) /(24kΩ+20kΩ) =11kΩ
+Ra=23 kΩ
+
+Salida=(R8/Ra+R8) Vs= (24/47)10=5.10 V
+
+El puente Wheatstone
+
+46. Se conecta un resistor de valor desconocido a un circuito puente Wheatstone. Los parámetros del puente en equilibrio se establecen como sigue: RV =18 kΩ y R2/R4 = 0.02. ¿Cuál es RX?
+
+
+Rx=RV(R2/R4)
+
+Rx=18KΩ(0,02)=360Ω
+
+
+48. Determine el voltaje de salida para el puente desequilibrado mostrado en la figura 7-83 a una temperatura de 60 C. La característica de resistencia según la temperatura del termistor se muestra en la figura 7-60
+
+![image](https://user-images.githubusercontent.com/105686218/176702243-0286c0c7-2bcd-46b4-8ffc-c667fdbdd5cb.png)
 
 
 
+![image](https://user-images.githubusercontent.com/105686218/176702251-534ec08e-b12f-452b-bae0-5cd37332a781.png)
+
+Su resistencia a 60° C es 5kΩ
+
+ΔVsalida ≡ ΔRtermisor(Vs/4R)=5kΩ(9V/27kΩ)=1.66 V
+
+
+Localización de fallas
+
+50. ¿Son correctas las lecturas del medidor mostrado en la figura 7-85?
+
+
+![image](https://user-images.githubusercontent.com/105686218/176702284-d3d51a9e-4e3c-49de-a06a-f0bb9286714d.png)
+
+
+R4‖R5=(100kΩ*10kΩ)/( 100kΩ+10kΩ)=9,10kΩ
+
+V=(9,10/42,10)18=3,89V
+
+Este valor es incorrecto, y, como es más alto de lo que debería ser, o R4 o R5 está probablemente abierto
+
+R1‖R2=(27kΩ*47kΩ)/( 27kΩ+47kΩ)=17,15kΩ
+
+V=(17,15/50,15)18=3,89V=6.15 V
+
+Este valor es incorrecto, y, como es más alto de lo que debería ser,probablemente tenga una abertura parcial que provoca una resistencia más alta de lo normal.
+
+52. Vea los medidores ilustrados en la figura 7-87 y determine si hay una falla en el circuito. Si la hay, identifíquela
+
+
+![image](https://user-images.githubusercontent.com/105686218/176702378-7ddda2a2-507c-4ae4-b92c-f4d418e9bbb4.png)
+
+54. Si en la figura 7-89 R2 se abre, ¿qué voltajes se leerán en los puntos A, B y C?
+
+![image](https://user-images.githubusercontent.com/105686218/176702407-00818226-5134-4775-ba94-1f5933109b64.png)
+
+2. Convierta las fuentes de voltaje prácticas de la figura 8-67 en fuentes de corriente equivalentes.
+
+
+![image](https://user-images.githubusercontent.com/105686218/176702455-12b08fac-a873-4376-b1cd-4f64436b5a6a.png)
+
+
+![image](https://user-images.githubusercontent.com/105686218/176702482-42933489-e8f5-4711-a161-fefd488bd90c.png)
+
+4. Trace los circuitos equivalentes de fuentes de voltaje y corriente para la batería tipo D del problema 3.
 
 
 
+![image](https://user-images.githubusercontent.com/105686218/176702532-3d843eff-c382-46d7-9ce0-5fa8c845e13b.png)
+
+6. Convierta las fuentes de corriente prácticas de la figura 8-68 en fuentes de voltaje equivalentes.
+
+![image](https://user-images.githubusercontent.com/105686218/176702574-2f322a87-4ac7-4add-9bb0-ad0a110a8eaf.png)
 
 
-
+![image](https://user-images.githubusercontent.com/105686218/176702590-97e83742-6adf-4338-816a-b2035c8eccdd.png)
 
 
 8. Use el teorema de superposición para determinar la corriente a través, y el voltaje entre, los extremos de la rama R2 de la figura 8-69.
