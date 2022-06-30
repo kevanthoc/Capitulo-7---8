@@ -967,7 +967,7 @@ https://youtu.be/G0PoEO-UqQA
 
 - Despues del desarrollo de los ejericicios se debe tomar en cuenta que los circuitos tienen sus determinadas formulas y establecimientos diferentes a la aplicacion en la vida real 
 
-- se concluye 
+- Se concluye despues del analisis la importancia del previo analisis nates de realizar cualquier ejericicio y su respectiva premisa, la inspeccion es necesaria y esencial. 
 
 ***
 **BIBLIOGRAFIA**
