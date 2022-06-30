@@ -23,14 +23,16 @@ Tema: **CIRCUITOS EN SERIE-PARALELO - TEOREMAS DE CIRCUITOS Y CONVERSIONES**
 ***
 
 **Objetivo General**
+Establecer y determinar las caracteristicas correspondientes a los capitulos del libro por medio de esquemas graficos y ejercicios .
+
 
 “” 
 
 **Objetivos Específicos**
 
-1.
+1. Analizar los diferentes tipos de teoremas relacionados con los circuitos y conversiones.
 
-2. 
+2. Desarrollar los determinados ejercicios relacionados con los temas correspondientes. 
 
 
 ***
@@ -688,6 +690,13 @@ Este valor es incorrecto, y, como es más alto de lo que debería ser,probableme
 
 ![image](https://user-images.githubusercontent.com/105686218/176702407-00818226-5134-4775-ba94-1f5933109b64.png)
 
+
+***
+
+## CAPÍTULO 8
+
+***
+
 2. Convierta las fuentes de voltaje prácticas de la figura 8-67 en fuentes de corriente equivalentes.
 
 
@@ -713,6 +722,7 @@ Este valor es incorrecto, y, como es más alto de lo que debería ser,probableme
 8. Use el teorema de superposición para determinar la corriente a través, y el voltaje entre, los extremos de la rama R2 de la figura 8-69.
 
 ![image](https://user-images.githubusercontent.com/105686218/176695762-a88356a1-3500-4f6b-a18b-9ec759af3066.png)
+
 a
 
 ![image](https://user-images.githubusercontent.com/105686218/176695779-9f188a5d-44e4-476d-ae11-62cc122dadee.png)
@@ -954,6 +964,10 @@ https://youtu.be/G0PoEO-UqQA
 
 **CONCLUSIONES**
 
+
+- Despues del desarrollo de los ejericicios se debe tomar en cuenta que los circuitos tienen sus determinadas formulas y establecimientos diferentes a la aplicacion en la vida real 
+
+- se concluye 
 
 ***
 **BIBLIOGRAFIA**
